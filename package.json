@@ -1,0 +1,16 @@
+{
+  "name": "self-desktop-app",
+  "version": "1.0.0",
+  "description": "A simple electron js app to render some URL",
+  "main": "index.js",
+  "author": "devevandro",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/ --out=packages"
+  },
+  "devDependencies": {
+    "electron": "^33.0.2"
+  },
+  "dependencies": {}
+}
