@@ -6,7 +6,6 @@ const createWindow = () => {
     width: 1400,
     height: 1200,
     resizable: true,
-    icon: path.join(__dirname, "infisical.png"),
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       nodeIntegration: true,
