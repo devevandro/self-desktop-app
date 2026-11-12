@@ -10,7 +10,7 @@
     "build": "npx electron-packager . --icon assets/ --out=packages"
   },
   "devDependencies": {
-    "electron": "^33.0.2"
+    "electron": "^42.11.16"
   },
   "dependencies": {}
 }
